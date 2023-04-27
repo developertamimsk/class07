@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  max-width: 1200px;
+  margin: auto;
+padding: 0 0 100px 0;
+cursor: no-drop;
+}
+
+.hero-box {
+  width: 100%;
+}
+
+.hero-box h1 {
+  background: #0d6efd;
+  color: white;
+  text-align: center;
+}
+
+.hero-box img {
+  width: 100%;
+}
+
+.hero-box p {
+  text-align: justify;
+  padding: 5px 5%;
+}
+
+.hero-box p .color1 {
+  color: #340e9d !important;
+  background: rgb(255, 255, 255);
+}
+
+.heading-box {
+  border: 5px solid #0dcaf0;
+}
+
+.heading-box h1 {
+  font-size: 50px;
+  color: #0dcaf0;
+  text-align: center;
+}
+
+.service-box {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.service-box div {
+  width: 50%;
+  height: 250px;
+  margin: 20px 0;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.service-box .index1 {
+  background: #7d4b4b;
+  color: #e8d5d5;
+  border-radius: 0 50px 50px 0;
+}
+
+.service-box .index2 {
+  background: #4f7d4b;
+  color: #f49f9f;
+  border-radius: 50px 0 0 50px;
+  margin-left: 50%;
+}
+
+.service-box .index3 {
+  background: #340e9d;
+  color: white;
+  border-radius: 0 50px 50px 0;
+}
+
+.contact-us {
+  height: 70px;
+  font-size: 50px;
+  color: #0dcaf0;
+  text-align: center;
+  border: 5px solid;
+}
+
+.contact {
+  text-align: center;
+}
+.contact .form .submit-btn {
+  background: #000099;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
